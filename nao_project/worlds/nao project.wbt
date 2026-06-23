@@ -1,0 +1,38 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/softbank/nao/protos/Nao.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+  info [
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+    "shape"
+    ""
+  ]
+}
+Viewpoint {
+  orientation -0.612536402522231 0.1998598700112049 0.7647582545773713 2.652388868221315
+  position 0.5072937684520944 -0.419825691641749 6.3397039420425045
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Nao {
+  translation -0.146766 0 0.332521
+  rotation 0 0 1 2.2926437884496935
+  controller "walk"
+  controllerArgs [
+    ""
+  ]
+}
+RectangleArena {
+  floorSize 10 10
+}
